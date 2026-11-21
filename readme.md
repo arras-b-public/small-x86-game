@@ -32,7 +32,7 @@ A power-up becomes available once you have earned 50 points since the last one y
 
 ## Build and run
 
-Requires Turbo Assembler (TASM), TLINK, and DOSBox. You also need `util_br.obj` from the course in the same folder (it is not included in this repository).
+Requires Turbo Assembler (TASM), TLINK, and DOSBox. You also need `util_br.obj` in the same folder
 
 ```
 tasm bricks
@@ -40,7 +40,6 @@ tlink bricks util_br
 bricks
 ```
 
-In DOSBox, mount the project folder first, for example `mount c C:\path\to\project` and then `c:`.
 
 ## How it works
 
